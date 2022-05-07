@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Paw Connection</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!-- link to styles.css -->
+    <link rel="stylesheet" href="css/schedule.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--content goes here-->
+
+    <!--schedule-->
+    <div class="wrapper-body">
+      <div class="wrapper-schedule">
+        <!--top list-->
+        <div class="wrapper-content">
+          <h1>Community Events</h1>
+          <p>
+            Check back weekly to see our updated schedule of community events
+          </p>
+          <h2>Shelters and Community Partners</h2>
+          <p>
+            Our events take place at area animal shelters and community partners
+            such as pet supply stores.
+          </p>
+
+          <!--this is an example of an unorder list-->
+          <ul>
+            <li>Austin Pets Alive (APA)</li>
+            <li>Thundering Paws (TP)</li>
+            <li>The Following Pet Supply Stores:</li>
+            <ul>
+              <li>Tomlison's Feed (TF)</li>
+              <li>Natural Pawz (NP)</li>
+              <li>Pet Supplies Plus Austin (PSPA)</li>
+            </ul>
+          </ul>
+          <!--this is an example of an unorder list-->
+        </div>
+        <!--end top list-->
+
+        <!--table-->
+        <div class="table-responsive">
+          <table class="content-table table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>8:00 AM</td>
+                <td>OPEN</td>
+                <td>APA</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>TF</td>
+                <td>PSPA</td>
+              </tr>
+
+              <tr>
+                <td>10:00AM</td>
+                <td>OPEN</td>
+                <td>APA</td>
+                <td>TP</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>TF</td>
+                <td>PSPA</td>
+              </tr>
+              <tr>
+                <td>12:00 PM</td>
+                <td>OPEN</td>
+                <td>APA-End</td>
+                <td>TP</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>TF-End</td>
+                <td>PSPA</td>
+              </tr>
+              <tr>
+                <td>2:00 PM</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>TP-End</td>
+                <td>OPEN</td>
+                <td>NP</td>
+                <td>OPEN</td>
+                <td>PSPA-End</td>
+              </tr>
+              <tr>
+                <td>6:00 PM</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+                <td>NP-End</td>
+                <td>OPEN</td>
+                <td>OPEN</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--end table-->
+
+        <!--bottom list-->
+        <div class="wrapper-content">
+          <h2>How to Arrange a Community Event in Your Area</h2>
+          <ol type="1">
+            <!--type of list-->
+            <li>Identify potential location, date and goals</li>
+            <li>Send an email to Paw Connection</li>
+            <li>Confirm details and help spread the word</li>
+          </ol>
+        </div>
+        <!--end bottom list-->
+      </div>
+    </div>
+
+    <!--end schedule-->
+
+    <!--end content-->
+    <div id="bottom"></div>
+  </body>
+</html>

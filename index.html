@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Paw Connection</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!-- link to styles.css -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--content goes here-->
+
+    <!--Begin Carousel-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/carousel/1.jpg"
+            class="d-block w-100"
+            alt="Four dogs looking over wall"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Doggy Kisses</h5>
+            <p>Can't adopt or foster right now? Try taking a shelter dog for a walk.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/2.jpg"
+            class="d-block w-100"
+            alt="Five kittens in grass"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kitten Season</h5>
+            <p>Hint: It is always better to adopt kittens in pairs</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/3.jpg"
+            class="d-block w-100"
+            alt="Dog paw with sign that reads Take Me Home"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Adoptions and fosters</h5>
+            <p>If you can't adopt right now, please consider fostering</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://www.youtube.com/embed/XTRjCFm2tUE"
+        title="YouTube Video"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    <!--End Carousel-->
+
+    <!-- Font Awesome Row Begin-->
+    <div class="container-fluid text-center fa-row">
+      <div class="row">
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-paw fa-row-icon"></i><br />
+          <a href="#"> General Info</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-cat fa-row-icon"></i><br />
+          <a href="#">Cats</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-dog fa-row-icon"></i><br />
+          <a href="#">Dogs</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-bone fa-row-icon"></i><br />
+          <a href="#">Food and Toys</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-hand-holding-heart fa-row-icon"></i><br />
+          <a href="#">Donations</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-home fa-row-icon"></i><br />
+          <a href="#">Adoptions</a>
+        </div>
+      </div>
+    </div>
+    <!-- Font Awesome Row End-->
+
+    <!-- First Description Section Begin-->
+    <div class="container volunteer-div google-font" data-aos="fade-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/volunteer.jpg"
+            class="img-responsive volunteer-img"
+            alt="Connecting Caring Humans"
+          />
+          <h2>Connecting Caring Humans</h2>
+          <p>
+            Our purpose is to connect those looking to help with organizations
+            needing help. Whether you are looking to volunteer your time at a
+            shelter, donate items or money or help transport animals to find a
+            home, we will help you find the best way to use your time and
+            talent.
+          </p>
+
+          <p>
+            We work in the background to assist animal shelters, rescues and
+            community organizations in ways they request. Our primary role is
+            coordinating transport of animals between shelters, rescues and
+            forever homes. Our assistance has also been requested in using our
+            transportation network to distribute donated goods.
+          </p>
+
+          <p>
+            As an animal advocacy group, we also work to be a source of
+            information for the public. This comes from our continuously growing
+            knowledge bank that you can search and our dedication to helping you
+            find the information if we don't already have it.
+          </p>
+
+          <p>
+            If you would like to join our transportation network, please click
+            the button below and fill out the form. Someone from our office will
+            be in contact with you. We appreciate you.
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary btn-volunteer"
+              >Volunteer Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- First Description Section End-->
+
+    <!-- Gallery Begin-->
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/1.jpg">
+            <img
+              src="/images/fancybox/thumbs/1.jpg"
+              class="img-responsive img-fancybox"
+              alt="Cat cleaning another cat"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/2.jpg">
+            <img
+              src="/images/fancybox/thumbs/2.jpg"
+              class="img-responsive img-fancybox"
+              alt="Cute puppy"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/3.jpg">
+            <img
+              src="/images/fancybox/thumbs/3.jpg"
+              class="img-responsive img-fancybox"
+              alt="Dog and cat leaning together"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/4.jpg">
+            <img
+              src="/images/fancybox/thumbs/4.jpg"
+              class="img-responsive img-fancybox"
+              alt="Cat in comfy bed"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gallery-button">
+        <div class="col-12 text-center">
+          <a href="gallery.html" class="btn btn-outline-primary btn-gallery"
+            >View Gallery
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery End-->
+
+    <!-- Second Description Begin-->
+    <div class="container contact-div google-font" data-aos="fade-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/contact-us.jpg"
+            class="img-responsive contact-img"
+            alt="Connecting Your Community"
+          />
+          <h2>Connecting Your Community</h2>
+          <p>
+            We are always looking to connect new communities to our network.
+            Maybe you run a rescue or volunteer at animal shelter or are an
+            individual looking for ways to help, where can you start?
+          </p>
+
+          <p>
+            Contact us. It is that simple. We are a small office and would love
+            to hear from you. Send us a note about who you are, if you have
+            specific needs, are you wanting to volunteer, anything to get the
+            conversation.
+          </p>
+
+          <p>
+            If your community does not have a Trap, Neuter, Return (TNR) program
+            in place and you would like guidance in navigating the channels to
+            set one up, we urge you contact us. This is one of the most
+            effective ways to control feline overpopulation.
+          </p>
+
+          <p>
+            <strong>
+              At the end of the day, we all have ways we can help. Do not
+              hesitate to start the conversation so you can make a real
+              difference for animals in need. 
+            </br></br>Thank you.
+            </strong>
+          </p>
+
+          <div></div>
+          <a href="#footerInfo" class="btn btn-outline-primary btn-contact"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Second Description End-->
+
+    <!-- Members Begin-->
+    <div class="container text-center staff" id="staff">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/1.jpg"
+            alt="Queen Bea - Cat"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+              I live with the founder of Paw Connection after being rescued by a kind soul.
+              I am living my best life and hope to help other animals do the same.
+            <cite>Queen Bea</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/2.jpg"
+            alt="Angel - Cat"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+              My mom takes care of all of the books and paperwork.  I like to take naps on the
+              stacks of papers on her desk.  Some times I knock them over.
+            <cite>Angel</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/3.jpg"
+            alt="Buddy - Dog"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            Favorite activities include chasing sticks and running in the water along the beach.
+            I help my dad in his community outreach responsibilities and hope to see you at the 
+            next event.
+            <cite>Buddy</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!-- Members End-->
+
+    <!--end content-->
+    <div id="bottom"></div>
+
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>

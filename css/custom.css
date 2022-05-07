@@ -1,0 +1,19 @@
+:root {
+  /*colors*/
+  /*https://www.canva.com/colors/color-wheel/print/39c4a5+399ec4+39c460/*/
+  /*
+60% of #39C4A5 - Dominant
+30% of #399EC4 - Secondary
+10% of #39C460
+*/
+
+  --dominantColor: #39c4a5; /*var(--dominantColor) !important; */
+  --secondaryColor: #399ec4; /*var(--secondaryColor) !important; */
+  --accentColor: #613716; /*var(--accentColor) !important; */
+
+  /*box shadow*/
+  /*cssmatic*/
+  /*https://shadows.brumm.af/*/
+  /* vertical, horizontal, blur, spread, color+opacity*/
+  --boxShadow: 0 0 20px rgba(0, 0, 0, 0.35); /* var(--boxShadow) !important; */
+}
